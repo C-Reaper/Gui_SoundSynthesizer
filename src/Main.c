@@ -12,7 +12,7 @@
 // }
 
 double SoundBoard_Function(double t,double f){
-	return 0.5 * sin(f * 2.0 * F64_PI * t);
+	return 0.4 * (0.5 * sin(f * 2.0 * F64_PI * t) + 0.5);
 }
 
 
